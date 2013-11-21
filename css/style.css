@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-size:14px;
+	color:#555;
+}
+a{
+	color:#555;	
+}
+.container{
+	width:100%;
+}
+.grid12,.grid16{margin-bottom:1.5em;}
+
+.bg-blue{
+	background:#205081;
+}
+h1,h2,h3,h4,h5,h6{
+	color:#555;
+}
+
+.sidebar{
+	float:left;
+	width:220px;
+	height:900px;
+	border-right:1px solid #d1d1d1;
+	background:#F9F9F9;
+}
+.content{
+	margin-left:230px;
+	border-left:1px solid #d1d1d1;
+	background:#fff;
+}
+.main{background:#fff;padding-top:50px;}
+
+.form{margin-left:14px;}
+
+.logo {
+	float: left;
+	margin-left:15px;
+	width:95px;
+	color: #fff;
+	height: 40px;
+	line-height:40px;
+	font-weight:bold;
+	padding-right:70px;
+}
+
+.toggle-nav{
+	float:left;
+	width:;
+	height:40px;
+	line-height:40px;
+	padding:0 10px;
+	color:#fff;
+	font-size:14px;
+	margin-right:30px;
+}
+.toggle-nav:hover{
+	background:#3b73af;
+}
+
+#main{background:#ececec;}
+.sidebar li{
+	/*padding-left:10px;*/
+}
+.side-search{
+	padding:0 10px;
+}
+.search{
+	height:40px;
+	border-bottom:1px solid #d9d9d9;
+}
+.search .submit{
+	float:left;
+	width:30px;
+	margin-top:15px;
+	color:;
+}
+.search .keyword{
+	float:left;
+	width:170px;
+	border:none;
+	box-shadow:none;
+	background:#F9F9F9;
+	margin-bottom:0px;
+}
+
+.side-nav{
+	display:block;
+}
+.side-nav li{
+	display:block;
+	border-bottom: 1px solid #ebebeb;
+}
+.side-nav li a{
+	display:block;
+	height:40px;
+	line-height:40px;
+	position:relative;
+	padding-left:10px;
+}
+.side-nav li a i{
+	padding-right:10px;
+}
+.side-nav li a .icon-right{
+	top:12px;
+}
+.side-nav li a:hover{
+	background:#fdfdfd;
+}
+.side-nav li.current>a{
+	border-right:2px solid #205081;
+	background:#fdfdfd;
+	border-bottom:1px solid #ebebeb;
+}
+.sub-menu{
+	background:#fdfdfd;
+}
+.sub-menu li{
+	border-bottom: none;
+}
+.sub-menu li a{
+	margin-left:15px;
+	padding-left:20px;
+	border-left:1px dashed #ccc;
+}
+.sub-menu li:hover,.sub-menu li.current{
+	background:#f1f1f1;
+	border-right:none;
+}
+.sub-menu li a:hover,.sub-menu li.current a{
+	background:#f1f1f1;
+	border-right:none;
+}
+.sub-menu b{
+	position:absolute;
+	left:0;
+	top:21px;
+	width:12px;
+	border-bottom:1px dashed #ccc;
+}
+
+
+.breadcrumbs{
+	height: 35px;
+	background: #f9f9f9;
+	border-bottom: 1px solid #d9d9d9;
+	font-size:12px;
+	line-height:40px;
+}
+.breadcrumb>li+li:before {
+	padding: 0 3px;
+	color: #ccc;
+	content: "/\00a0";
+}
+.breadcrumbs i{
+	margin-right:5px;
+}
+.content .wrap{
+	padding:0 15px;
+}
+.box{
+	
+}
+.box .box-title h4{
+	line-height: 35px;
+	margin:0;
+}
